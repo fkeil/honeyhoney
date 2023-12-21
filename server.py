@@ -44,4 +44,4 @@ async def login():
 if __name__ == '__main__':
     # Run the app with Uvicorn using the import string
     import uvicorn
-    uvicorn.run("your_filename:app", host="0.0.0.0", port=8000, log_level="info", reload=True)
+    uvicorn.run("server:app", host="0.0.0.0", port=8000, log_level="info", reload=True)
